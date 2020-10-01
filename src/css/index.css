@@ -21,6 +21,15 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family:PopB;
+  src: url("../fonts/PoppinsBold.ttf");
+}
+@font-face {
+  font-family:PopM;
+  src: url("../fonts/PoppinsMedium.ttf");
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

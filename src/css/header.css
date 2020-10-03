@@ -36,6 +36,10 @@ header {
     vertical-align: bottom;
     margin-bottom: 10px;
 }
+.sdbr_head {
+    font-family: 'PopB';
+    font-size:28px;
+}
 .header_menu_cont {
     float:right;
     margin-top: 10px;
@@ -201,7 +205,7 @@ li.active>a.h_menu_list::before {
 }
 
 @media(max-width:750px){
-    .nav-bar-o {
+    #hSideNavBar {
         display: none;
     }
     .h_menu_icon {
@@ -228,7 +232,6 @@ li.active>a.h_menu_list::before {
     }
     .h_menu_icon{
         margin-top: -7px;
-        height:3px;
     }
     .h_menu_bar{
         height:3px;

@@ -1,0 +1,132 @@
+.footer{
+    background-color: #022144;
+    padding: 80px 0 0px;
+}
+.footer .sec_container{
+    padding-left:10px;
+    padding-right:10px;
+}
+.frow{
+    display: flex;
+    flex-wrap: wrap;
+    font-size:15px;
+}
+.col_head{
+    min-width:120px;
+    margin-bottom: 20px;
+}
+.col_foot_banner{
+    flex: auto;
+    max-width: auto;
+}
+.frow-subrow{
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:5vw;
+}
+.fcol-subcol{
+    flex:25%;
+    max-width:25%;
+    color:#fff;
+}
+.fcol-subcol .clearfix{
+    margin-left:20px;
+    text-align: left;
+}
+.clearfix a{
+    color:#fff !important;
+    font-family: 'PopM';
+    font-weight: bold;
+}
+.clearfix_cont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    text-align: left;
+    margin-top:10px;
+}
+.clearfix_cont ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-family: 'PopM';
+}
+.clearfix_cont ul li{
+    list-style: none;
+    line-height: 2em;
+}
+.clearfix_cont ul li a{
+    font-weight:normal;
+}
+.foot-head{
+    color:#009dcc;
+    font-family: 'popm';
+    font-size: 25px;
+    font-weight: normal;
+    user-select: none;
+    padding-left:10px;
+}
+.foot-head a{
+    color:#009dcc !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+.social-bar{
+    text-align: center;
+    color:#fff;
+    margin-top:10px;
+    font-family:sans-serif;
+    font-size:12px;
+    line-height: 1.8em;
+}
+.social-bar a{
+    text-decoration:none;
+    color: #009dcc !important;
+}
+.social-bar a:hover{
+    text-decoration:underline;
+}
+.social-bar a i{
+    color:#fff;
+    font-size:25px;
+    padding:10px;
+    transition:all 0.5s;
+}
+.social-bar a i:hover{
+    color:#009dcc;
+}
+.address_cont{
+    color:#fff;
+    font-family: 'PopM';
+    max-width:230px;
+    padding:10px;
+    margin-top: 15px;
+}
+@media(max-width:1050px){
+    .col_foot_banner{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .address_cont{
+        max-width:100%;
+    }
+    .fcol-subcol .clearfix{
+        margin-left:20px;
+        float:left;
+        text-align: left;
+    }
+    .frow-subrow{
+        margin-top:25px;
+        margin-left:0;
+    }
+}
+@media(max-width:750px){
+    .frow-subrow{
+        margin-top:0px;
+    }
+    .fcol-subcol{
+        flex:50%;
+        max-width:50%;
+        margin-top:25px;
+    }
+}

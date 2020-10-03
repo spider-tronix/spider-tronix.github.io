@@ -20,7 +20,7 @@ class Lander extends React.Component{
                                 </div>
                                 <div className="column50">
                                     <div className="ldg_img_con">
-                                        <img src={LandingImage} alt="Landing Picture"/>
+                                        <img src={LandingImage} alt="Landing Laptop"/>
                                     </div>
                                 </div>
                             </div>

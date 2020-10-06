@@ -1,0 +1,40 @@
+.memberSec{
+    background: rgba(233, 235, 238,0.7);
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.memberSec .sec_container{
+    padding-left:10px;
+    padding-right: 10px;
+}
+.member_wrapper{
+    text-align: center;
+}
+.avatarCont{
+    height:125px;
+    width:125px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.avatarCont img{
+    width: 100%;
+    -webkit-filter: grayscale(1); 
+    filter: grayscale(1); 
+    transition: all 0.5s;
+}
+.memberSec .prjWrapper{
+    padding-bottom: 0px;
+    text-decoration: none !important;
+}
+.memberSec a{
+    text-decoration: none !important;
+}
+.memberSec .prjWrapper:hover .avatarCont img{
+    -webkit-filter: grayscale(0); 
+    filter: grayscale(0); 
+}
+.memberSec .prjWrapper .projTitle{
+    word-break: break-word;
+}

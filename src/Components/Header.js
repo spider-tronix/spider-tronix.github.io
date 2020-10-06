@@ -21,7 +21,7 @@ class Header extends React.Component{
                                 <li><a href="#home" className="h_menu_list list_special">Home</a></li>
                                 <li><a href="#about" className="h_menu_list">About</a></li>
                                 <li><a href="#projects" className="h_menu_list">Projects</a></li>
-                                <li><a href="#resume" className="h_menu_list">Members</a></li>
+                                <li><a href="#members" className="h_menu_list">Members</a></li>
                                 <li><a href="#contact" className="h_menu_list">Contact</a></li>
                             </ul>
                         </nav>
@@ -43,7 +43,7 @@ class Header extends React.Component{
                                     <li><a href="#home" className="h_menu_list ">Home</a></li>
                                     <li><a href="#about" className="h_menu_list">About</a></li>
                                     <li><a href="#projects" className="h_menu_list">Projects</a></li>
-                                    <li><a href="#resume" className="h_menu_list">Members</a></li>
+                                    <li><a href="#members" className="h_menu_list">Members</a></li>
                                     <li><a href="#contact" className="h_menu_list">Contact</a></li>
                                 </ul>
                             </nav>

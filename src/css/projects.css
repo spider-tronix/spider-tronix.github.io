@@ -79,3 +79,37 @@
     background-color: #0062cc;
     border-color: #005cbf;
 }
+
+@media(max-width:1100px){
+    .project_wrapper .sec_desc{
+        padding:20px;
+    }
+    .proj_col{
+        flex:33%;
+        max-width: 33%;
+    }
+}
+@media(max-width:900px){
+    .proj_col{
+        flex:40%;
+        max-width: 40%;
+    }
+}
+@media(max-width:800px){
+    .proj_col{
+        flex:50%;
+        max-width: 50%;
+    }
+}
+@media(max-width:630px){
+    .proj_col{
+        flex:70%;
+        max-width: 70%;
+    }
+}
+@media(max-width:550px){
+    .proj_col{
+        flex:90%;
+        max-width: 90%;
+    }
+}

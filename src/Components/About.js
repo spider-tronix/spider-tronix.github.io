@@ -11,8 +11,9 @@ class About extends React.Component{
                             <div className="sec_head">About</div>
                             <br/><br/><br/>
                             <div className="sec_desc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Spider, the Research and Development club of <a href="https://www.nitt.edu" alt="Visit NIT Trichy Website">NIT Trichy</a>, is a cluster of like-minded individuals pursuing projects in some of the booming technology sectors. The Tronix profile is a Spider division wherein we majorly work on the lines of Embedded Systems,  Electronics, IoT, Robotics and Simulation, Control Systems, Solid Modelling, Computer Vision, Artificial Intelligence, and many more. Apart from the R & D projects, we conduct a uCON (mu-CON) workshop exclusively for the first years of NIT Trichy every year. Generally, the workshop happens in the mid of the odd semester. Also, we conduct an event named CRE-8 in the middle of even semester every academic year exclusively for first years at college. 
+                            <br/><br/>
+                            Check out our <a href="https://github.com/orgs/spider-tronix/" alt="Visit Github Spider Tronix Organisation">Github organization</a> to see what we do or check out the <a href="/#projects" alt="Move to Projects Section">Projects</a> section for more info. 
                             </div>
                         </div>
                     </div>

@@ -28,12 +28,13 @@
     color:#000;
     margin:10px;
     border-radius: 7px;
-    padding:15px;
+    padding:5px;
     min-height:100%;
     position: relative;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
     transition:all 0.5s;
+    position: relative;
 }
 .prjWrapper:hover{
     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
@@ -41,6 +42,7 @@
 .projTitle{
     font-family: 'PopM';
     font-weight:500;
+    text-align: center;
 }
 .projDesc{
     font-size: 15px;
@@ -51,7 +53,7 @@
 }
 .utilCont{
     position: absolute;
-    bottom:15px;
+    bottom:5px;
     left:50%;
     transform:translateX(-50%);
 }
@@ -80,6 +82,91 @@
     border-color: #005cbf;
 }
 
+
+.flip-card{
+    perspective: 1000px;
+    min-width: 100%;
+    min-height: 100%;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-back {
+    padding: 10px;
+    position: absolute;
+    top:0;left:0;
+    width: 100%;
+    min-height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+.flip-card-front {
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    min-height: 225px;
+    max-height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+    border-radius: 5px;
+    text-align: end;
+}
+
+.flip-card-back .projDesc{
+    margin:10px;
+    max-height:156px;
+    overflow: auto;
+}
+.flip-card-back .projDesc::-webkit-scrollbar{
+    width: 4px;
+    border-radius:10px;
+}
+.flip-card-back .projDesc::-webkit-scrollbar-track{
+    background: #333; 
+    border-radius: 10px; 
+}
+.flip-card-back .projDesc::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 10px; 
+}
+.flip-card-back .projDesc::-webkit-scrollbar-thumb:hover{
+    background: #ddd; 
+}
+.topicCont{
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid transparent;
+    border-radius: 2em;
+    padding: 0 10px;
+    line-height: 22px;
+    color: #0366d6;
+    white-space: nowrap;
+    background-color: #f1f8ff;
+    font-weight: bold;
+    margin: 0 0.825em .333em 0;
+}
+.notopic{
+    color: #ff8100;
+    background: #ffe7e7;
+}
+.detialsIconCont{
+    text-align: center;
+    margin-top:10px;
+}
 @media(max-width:1100px){
     .project_wrapper .sec_desc{
         padding:20px;

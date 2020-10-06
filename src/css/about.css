@@ -50,6 +50,10 @@
     font-weight: normal;
     line-height: 1.5em;
 }
+.sec_desc a{
+    color: #90A0AC;
+    font-weight: bold;
+}
 @media(max-width:650px){
     .sec_desc{
         font-size: 18px;

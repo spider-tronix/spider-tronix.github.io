@@ -34,7 +34,7 @@ class Contact extends React.Component{
                                     </div>
                                     <div className="fcol-subcol">
                                         <div className="clearfix">
-                                            <a href="#">Explore</a>
+                                            <a href="/#">Explore</a>
                                             <div className="clearfix_cont">
                                                 <ul>
                                                     <li> <a href="https://spider.nitt.edu/" title="Spider R&D Club">Spider R&D Club</a>, <br/> NIT Trichy</li>

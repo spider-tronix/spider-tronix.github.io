@@ -1,0 +1,2 @@
+(this.webpackJsonptronixwebsite=this.webpackJsonptronixwebsite||[]).push([[3],{24:function(e,n){function o(){(document.body.scrollTop||document.documentElement.scrollTop)>window.innerHeight-50?document.getElementById("header").classList.add("noTop"):document.getElementById("header").classList.remove("noTop")}o(),window.addEventListener("scroll",o)}}]);
+//# sourceMappingURL=3.f5132de1.chunk.js.map

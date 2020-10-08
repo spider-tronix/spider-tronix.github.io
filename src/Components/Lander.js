@@ -12,7 +12,7 @@ class Lander extends React.Component{
                                 <div className="column50">
                                     <div className="header-text-area">
                                         <h1>Team of Ideators and Innovators.</h1>
-                                        <h3>We take up projects in the field of Emdedded and Electroincs, Robotics and Control, Signal Processing and Machine Learning and much more.</h3>
+                                        <h3>We take up projects in the field of Embedded and Electronics, Robotics and Control, Signal Processing and Machine Learning, and much more.</h3>
                                         <div className="action-wrap">
                                             <a href="#about"><button className="get_started_but">Know More</button></a>
                                         </div>

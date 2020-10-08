@@ -34,7 +34,7 @@ The portfolio uses a number of web development tech:
 - Give command ```npm install```
 - Finally, to start react-app give ```npm start```
 
-```cmd
+```bash
 $ git clone [Repo url]
 $ cd spider-tronix.github.io
 $ npm install
@@ -47,7 +47,7 @@ $ npm start
 By default, the react-app is set to push the changes to ```gh-pages``` branch after building. Hence, just building the app is required. 
 
 To build:
-```cmd
+```bash
 $ npm build
 ```
 

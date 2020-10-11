@@ -11,8 +11,8 @@ class Lander extends React.Component{
                             <div className="ldg_row">
                                 <div className="column50">
                                     <div className="header-text-area">
-                                        <h1>Team of Ideators and Innovators.</h1>
-                                        <h3>We take up projects in the field of Embedded and Electronics, Robotics and Control, Signal Processing and Machine Learning, and much more.</h3>
+                                        <h1>Team of Ideators and Innovators</h1>
+                                        <h3>We take up projects in the domains of Embedded and Electronics, Robotics and Control, Signal Processing and Machine Learning, and beyond.</h3>
                                         <div className="action-wrap">
                                             <a href="#about"><button className="get_started_but">Know More</button></a>
                                         </div>

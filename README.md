@@ -44,12 +44,19 @@ $ npm start
 
 ### Building
 
-By default, the react-app is set to push the changes to ```gh-pages``` branch after building. Hence, just building the app is required. 
+To build the app:
 
-To build:
 ```bash
-$ npm build
+$ npm run build
 ```
+
+Also, the react-app is set to push the changes to ```gh-pages``` branch after building. Hence, with one command building plus deploying can be done. To do so:
+
+```bash
+$ npm run deploy
+```
+
+
 
 ### Todos
 

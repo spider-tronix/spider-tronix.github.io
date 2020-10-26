@@ -28,6 +28,7 @@
 .memberSec .prjWrapper{
     padding-bottom: 0px;
     text-decoration: none !important;
+    display: block;
 }
 .memberSec a{
     text-decoration: none !important;

@@ -106,6 +106,17 @@ section svg{
 .ldg_img_con img{
     width:500px;
 }
+.l-come-in-left{
+    opacity: 0;
+    transform: translateX(-150px);
+    animation: come-in 0.8s ease forwards;
+}
+.l-come-in-right{
+    opacity: 0;
+    transform: translateX(200px);
+    animation: come-in 0.8s ease forwards;
+}
+
 @media(max-width:2000px){
     .landing_svg polygon.svg--max{
         display: block;

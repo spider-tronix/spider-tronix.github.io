@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/projects.css'
-import $ from 'jquery'
+import $ from 'jquery';
 
 function getColor(lang){
     if(lang === "Verilog")
@@ -28,7 +28,7 @@ function ReturnCard(repo){
     let projLink = repo.html_url;
     let topics = repo.topics;
     let ele = "<div class=\"proj_col\">"+
-                "<div class=\"prjWrapper\">"+
+                "<div class=\"prjWrapper\" style=\"visibility:hidden\">"+
                     "<div class=\"flip-card\">"+
                         "<div class=\"flip-card-inner\">"+
                             "<div class=\"flip-card-front\">"+
@@ -119,7 +119,7 @@ class Project extends React.Component{
             success: function(data, textStatus, xhr){
                 if(xhr.status === 200){
                     for(let i=0;i<data.length;i++){
-                        console.log(data[i],data[i].topics);
+                        //console.log(data[i],data[i].topics);
                         $("#projRow").append(ReturnCard(data[i]));
                     }
                 }
@@ -131,6 +131,24 @@ class Project extends React.Component{
                 console.log(errorThrown);
             }
         });
+
+        function project_ScrollSpy(){
+            $(".prjWrapper").each(function(i, el) {
+                let projCard = $(el);
+                if (projCard.visible(true) && projCard.css( "visibility")==="hidden") {
+                    projCard.css( "visibility", "visible" );
+                    projCard.addClass("p-come-in-flip"); 
+                    setTimeout(function(){
+                        projCard.removeClass("p-come-in-flip"); 
+                    },800);
+                }
+                if(projCard.visible(true)===false){
+                    projCard.css( "visibility", "hidden" );
+                } 
+            });
+        }
+        $(window).scroll(project_ScrollSpy);
+        project_ScrollSpy();
         
     }
 }

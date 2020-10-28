@@ -198,6 +198,17 @@
 .mr-3 .lisc_icon {
     fill: #586069;
 }
+.p-come-in-flip{
+    opacity: 0;
+    transform: rotateY(-90deg);
+    animation: come-in-proj 0.8s ease forwards;
+}
+@keyframes come-in-proj {
+    to { 
+      transform: rotateY(0);
+      opacity: 1;
+    }
+  }
 @media(max-width:1100px){
     .project_wrapper .sec_desc{
         padding:20px;

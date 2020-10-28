@@ -54,6 +54,11 @@
     color: #90A0AC;
     font-weight: bold;
 }
+.a-come-in-bottom{
+    opacity: 0;
+    transform: translateY(200px);
+    animation: come-in 0.8s ease forwards;
+}
 @media(max-width:650px){
     .sec_desc{
         font-size: 18px;

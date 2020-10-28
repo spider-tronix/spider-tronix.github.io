@@ -42,3 +42,10 @@ code {
 .secFitHeight{
   min-height: 100vh;
 }
+
+@keyframes come-in {
+  to { 
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
